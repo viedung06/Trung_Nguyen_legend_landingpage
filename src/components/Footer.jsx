@@ -111,8 +111,16 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
+                {/* Bottom Bar */}
         <div className="pt-8 border-t border-coffee-900 text-center text-[11px] text-coffee-400 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>{footerInfo.copyright}</p>
+          <div>
+            <p>{footerInfo.copyright}</p>
+            {footerInfo.developer && (
+              <p className="hover:text-cream-200">
+                {footerInfo.developer}
+              </p>
+            )}
+          </div>
           <div className="flex space-x-4">
             <a href="#hero" className="hover:text-cream-200">Điều khoản sử dụng</a>
             <a href="#hero" className="hover:text-cream-200">Chính sách bảo mật</a>
