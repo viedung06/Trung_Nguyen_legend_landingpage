@@ -173,7 +173,7 @@ export default function ContactForm({ onFormSuccess }) {
                     name="fullName"
                     value={formData.fullName}
                     onChange={handleChange}
-                    placeholder="Nguyễn Văn A"
+                    placeholder="Nguyễn Việt Dũng"
                     className={`w-full px-4 py-3 text-sm rounded-xl bg-cream-100/40 dark:bg-coffee-950/60 border transition-colors focus:outline-none focus:ring-2 ${
                       errors.fullName
                         ? 'border-red-500 focus:ring-red-400 text-red-900 dark:text-red-300'
@@ -196,7 +196,7 @@ export default function ContactForm({ onFormSuccess }) {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="ban@example.com"
+                      placeholder="vietdung0322@gmail.com"
                       className={`w-full px-4 py-3 text-sm rounded-xl bg-cream-100/40 dark:bg-coffee-950/60 border transition-colors focus:outline-none focus:ring-2 ${
                         errors.email
                           ? 'border-red-500 focus:ring-red-400 text-red-900 dark:text-red-300'
@@ -217,7 +217,7 @@ export default function ContactForm({ onFormSuccess }) {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="0912 345 678"
+                      placeholder="0346 042 906"
                       className={`w-full px-4 py-3 text-sm rounded-xl bg-cream-100/40 dark:bg-coffee-950/60 border transition-colors focus:outline-none focus:ring-2 ${
                         errors.phone
                           ? 'border-red-500 focus:ring-red-400 text-red-900 dark:text-red-300'
@@ -258,7 +258,7 @@ export default function ContactForm({ onFormSuccess }) {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    placeholder="Mô tả cụ thể yêu cầu của quý khách (số lượng, ngân sách dự kiến, thời gian mong muốn)..."
+                    placeholder="Anh yêu tất cả các em <3 "
                     className={`w-full px-4 py-3 text-sm rounded-xl bg-cream-100/40 dark:bg-coffee-950/60 border transition-colors focus:outline-none focus:ring-2 ${
                       errors.message
                         ? 'border-red-500 focus:ring-red-400 text-red-900 dark:text-red-300'

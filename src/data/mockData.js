@@ -200,5 +200,6 @@ export const footerInfo = {
     'Hà Nội: 52 Hai Bà Trưng, Q. Hoàn Kiếm',
     'Buôn Ma Thuột: Làng Cà Phê Trung Nguyên'
   ],
-  copyright: '© 2026 Trung Nguyên Legend. Tôn vinh cà phê Việt vươn tầm quốc tế.'
+  copyright: '© 2026 Trung Nguyên Legend. Tôn vinh cà phê Việt vươn tầm quốc tế.',
+  developer: 'Thiết kế & phát triển bởi Nguyễn Việt Dũng'
 };
